@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		983911DF29938263002026DF /* VulnerableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983911DE29938263002026DF /* VulnerableApp.swift */; };
+		983911E129938263002026DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983911E029938263002026DF /* ContentView.swift */; };
+		983911E329938263002026DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983911E229938263002026DF /* Assets.xcassets */; };
+		983911E629938263002026DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983911E529938263002026DF /* Preview Assets.xcassets */; };
+		983911F029938264002026DF /* VulnerableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983911EF29938264002026DF /* VulnerableTests.swift */; };
+		983911FA29938264002026DF /* VulnerableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983911F929938264002026DF /* VulnerableUITests.swift */; };
+		983911FC29938264002026DF /* VulnerableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983911FB29938264002026DF /* VulnerableUITestsLaunchTests.swift */; };
+		98391209299382B5002026DF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98391208299382B5002026DF /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		983911EC29938264002026DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 983911D329938263002026DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 983911DA29938263002026DF;
+			remoteInfo = Vulnerable;
+		};
+		983911F629938264002026DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 983911D329938263002026DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 983911DA29938263002026DF;
+			remoteInfo = Vulnerable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		983911DB29938263002026DF /* Vulnerable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vulnerable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		983911DE29938263002026DF /* VulnerableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VulnerableApp.swift; sourceTree = "<group>"; };
+		983911E029938263002026DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		983911E229938263002026DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		983911E529938263002026DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		983911EB29938264002026DF /* VulnerableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VulnerableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		983911EF29938264002026DF /* VulnerableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VulnerableTests.swift; sourceTree = "<group>"; };
+		983911F529938264002026DF /* VulnerableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VulnerableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		983911F929938264002026DF /* VulnerableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VulnerableUITests.swift; sourceTree = "<group>"; };
+		983911FB29938264002026DF /* VulnerableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VulnerableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98391208299382B5002026DF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		983911D829938263002026DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983911E829938264002026DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983911F229938264002026DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		983911D229938263002026DF = {
+			isa = PBXGroup;
+			children = (
+				983911DD29938263002026DF /* Vulnerable */,
+				983911EE29938264002026DF /* VulnerableTests */,
+				983911F829938264002026DF /* VulnerableUITests */,
+				983911DC29938263002026DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		983911DC29938263002026DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				983911DB29938263002026DF /* Vulnerable.app */,
+				983911EB29938264002026DF /* VulnerableTests.xctest */,
+				983911F529938264002026DF /* VulnerableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		983911DD29938263002026DF /* Vulnerable */ = {
+			isa = PBXGroup;
+			children = (
+				983911DE29938263002026DF /* VulnerableApp.swift */,
+				983911E029938263002026DF /* ContentView.swift */,
+				983911E229938263002026DF /* Assets.xcassets */,
+				983911E429938263002026DF /* Preview Content */,
+				98391208299382B5002026DF /* Model.swift */,
+			);
+			path = Vulnerable;
+			sourceTree = "<group>";
+		};
+		983911E429938263002026DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				983911E529938263002026DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		983911EE29938264002026DF /* VulnerableTests */ = {
+			isa = PBXGroup;
+			children = (
+				983911EF29938264002026DF /* VulnerableTests.swift */,
+			);
+			path = VulnerableTests;
+			sourceTree = "<group>";
+		};
+		983911F829938264002026DF /* VulnerableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				983911F929938264002026DF /* VulnerableUITests.swift */,
+				983911FB29938264002026DF /* VulnerableUITestsLaunchTests.swift */,
+			);
+			path = VulnerableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		983911DA29938263002026DF /* Vulnerable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983911FF29938264002026DF /* Build configuration list for PBXNativeTarget "Vulnerable" */;
+			buildPhases = (
+				983911D729938263002026DF /* Sources */,
+				983911D829938263002026DF /* Frameworks */,
+				983911D929938263002026DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vulnerable;
+			productName = Vulnerable;
+			productReference = 983911DB29938263002026DF /* Vulnerable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		983911EA29938264002026DF /* VulnerableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9839120229938264002026DF /* Build configuration list for PBXNativeTarget "VulnerableTests" */;
+			buildPhases = (
+				983911E729938264002026DF /* Sources */,
+				983911E829938264002026DF /* Frameworks */,
+				983911E929938264002026DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				983911ED29938264002026DF /* PBXTargetDependency */,
+			);
+			name = VulnerableTests;
+			productName = VulnerableTests;
+			productReference = 983911EB29938264002026DF /* VulnerableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		983911F429938264002026DF /* VulnerableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9839120529938264002026DF /* Build configuration list for PBXNativeTarget "VulnerableUITests" */;
+			buildPhases = (
+				983911F129938264002026DF /* Sources */,
+				983911F229938264002026DF /* Frameworks */,
+				983911F329938264002026DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				983911F729938264002026DF /* PBXTargetDependency */,
+			);
+			name = VulnerableUITests;
+			productName = VulnerableUITests;
+			productReference = 983911F529938264002026DF /* VulnerableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		983911D329938263002026DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					983911DA29938263002026DF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					983911EA29938264002026DF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 983911DA29938263002026DF;
+					};
+					983911F429938264002026DF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 983911DA29938263002026DF;
+					};
+				};
+			};
+			buildConfigurationList = 983911D629938263002026DF /* Build configuration list for PBXProject "Vulnerable" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 983911D229938263002026DF;
+			productRefGroup = 983911DC29938263002026DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				983911DA29938263002026DF /* Vulnerable */,
+				983911EA29938264002026DF /* VulnerableTests */,
+				983911F429938264002026DF /* VulnerableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		983911D929938263002026DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983911E629938263002026DF /* Preview Assets.xcassets in Resources */,
+				983911E329938263002026DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983911E929938264002026DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983911F329938264002026DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		983911D729938263002026DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98391209299382B5002026DF /* Model.swift in Sources */,
+				983911E129938263002026DF /* ContentView.swift in Sources */,
+				983911DF29938263002026DF /* VulnerableApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983911E729938264002026DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983911F029938264002026DF /* VulnerableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983911F129938264002026DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983911FC29938264002026DF /* VulnerableUITestsLaunchTests.swift in Sources */,
+				983911FA29938264002026DF /* VulnerableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		983911ED29938264002026DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 983911DA29938263002026DF /* Vulnerable */;
+			targetProxy = 983911EC29938264002026DF /* PBXContainerItemProxy */;
+		};
+		983911F729938264002026DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 983911DA29938263002026DF /* Vulnerable */;
+			targetProxy = 983911F629938264002026DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		983911FD29938264002026DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		983911FE29938264002026DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9839120029938264002026DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vulnerable/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shebin.Vulnerable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9839120129938264002026DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vulnerable/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shebin.Vulnerable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9839120329938264002026DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shebin.VulnerableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vulnerable.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vulnerable";
+			};
+			name = Debug;
+		};
+		9839120429938264002026DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shebin.VulnerableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vulnerable.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vulnerable";
+			};
+			name = Release;
+		};
+		9839120629938264002026DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shebin.VulnerableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vulnerable;
+			};
+			name = Debug;
+		};
+		9839120729938264002026DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shebin.VulnerableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vulnerable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		983911D629938263002026DF /* Build configuration list for PBXProject "Vulnerable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983911FD29938264002026DF /* Debug */,
+				983911FE29938264002026DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		983911FF29938264002026DF /* Build configuration list for PBXNativeTarget "Vulnerable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9839120029938264002026DF /* Debug */,
+				9839120129938264002026DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9839120229938264002026DF /* Build configuration list for PBXNativeTarget "VulnerableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9839120329938264002026DF /* Debug */,
+				9839120429938264002026DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9839120529938264002026DF /* Build configuration list for PBXNativeTarget "VulnerableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9839120629938264002026DF /* Debug */,
+				9839120729938264002026DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 983911D329938263002026DF /* Project object */;
+}
